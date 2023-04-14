@@ -30,11 +30,11 @@ test in browser localhost /127.0.0.1/ip
 
 Install MariaDB server and development libraries
 
-apk add mysql mysql-client
+apk add mysql mysql-client mariadb-dev
 
 or
 
-apk add mariadb mariadb-common mariadb-client
+apk add mariadb mariadb-common mariadb-client mariadb-dev
 
 /etc/init.d/mariadb setup
 
@@ -46,7 +46,7 @@ for test:
 
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 
-GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
+GBRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
 
 FLUSH PRIVILEGES;
 
