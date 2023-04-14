@@ -19,7 +19,7 @@ if phpmyadmin error missing session
 
 or check php info new version 
 
-apk add php81 php81-common php81-session php81-iconv php81-json php81-gd php81-curl php81-xml php81-mysqli php81-imap php81-cgi fcgi php81-pdo php81-pdo_mysql php81-soap php81-xmlrpc php81-posix php81-mcrypt php81-gettext php81-ldap php81-ctype php81-dom php81-simplexml
+apk add php81 php81-mbstring php81-common php81-session php81-iconv php81-json php81-gd php81-curl php81-xml php81-mysqli php81-imap php81-cgi fcgi php81-pdo php81-pdo_mysql php81-soap php81-xmlrpc php81-posix php81-mcrypt php81-gettext php81-ldap php81-ctype php81-dom pDhp81-simplexml
 
 
 Install Apache2
