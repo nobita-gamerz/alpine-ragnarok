@@ -47,7 +47,9 @@ Install phpmyadmin
 
 mkdir -p /usr/share/webapps/
 
-cd /usr/share/webappswget http://files.directadmin.com/services/all/phpMyAdmin/phpMyAdmin-5.0.2-all-languages.tar.gz
+cd /usr/share/webapps
+
+wget http://files.directadmin.com/services/all/phpMyAdmin/phpMyAdmin-5.0.2-all-languages.tar.gz
 
 tar zxvf phpMyAdmin-5.0.2-all-languages.tar.gz
 
