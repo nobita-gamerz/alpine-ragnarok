@@ -9,7 +9,7 @@ apk update
 
 apk upgrade
 
-apk add build-base zlib-dev git make cmake libstdc++ gcc g++ libuv-dev openssl-dev hwloc-dev automake libtool autoconf linux-headers
+apk add build-base pcre pcre-doc mingw-w64-gcc zlib-dev git make cmake libstdc++ gcc g++ libuv-dev openssl-dev hwloc-dev automake libtool autoconf linux-headers
 
 Installing prerequisites for php :
 
